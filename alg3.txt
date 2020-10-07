@@ -1,0 +1,67 @@
+1.) 1'den, disaridan girilen sayiya kadar olan sayilari ekrana yazan program.
+
+1. BASLA
+2. GIR n
+3. sayi = 1
+4. YAZ sayi
+5. sayi = sayi + 1
+6. EGER sayi<=n GIT ADIM 4
+7. BITIR
+
+2.) Disaridan girilen bir sayinin tek yada cift olma durumunu ekrana yazan program.
+
+1. BASLA
+2. GIR sayi
+3. EGER sayi mod 2 = 0 ise YAZ 'Cift'
+   DEGILSE YAZ 'Tek'
+4. BITIR
+
+3.) 1'den baslayarak disaridan girilen sayiya kadar olan TEK sayilari ekrana yazan program.
+
+1. BASLA
+2. GIR n
+3. sayi = 1
+4. YAZ sayi
+5. sayi = sayi + 2
+6. EGER sayi<=n GIT ADIM 4
+7. BITIR
+
+-------------------------------
+Adim    n   sayi    Ekran
+2       6
+3           1
+4                   1
+5           3
+4                   3
+5           5
+4                   5
+5           7
+BITIR
+
+4.) Disaridan girilen 100 sayinin ortalamasini bulan ve ekrana yazan program.
+
+1. BASLA
+2. i = 1, toplam = 0
+3. GIR sayi
+4. toplam = toplam + sayi
+5. i = i + 1
+6. EGER i<=100 ise GIT ADIM 3
+7. YAZ toplam/100
+8. BITIR
+
+5.) Disaridan girilen bir sayinin faktoriyelini hesaplayip ekrana yazan program.
+
+1. BASLA
+2. GIR n
+3. f = 1, s = 1
+4. f = f * s
+5. s = s + 1
+6. EGER s<=n GIT ADIM 4
+7. YAZ f
+8. BITIR
+
+
+ODEV: Disaridan girilen sayinin Fibonacci degerini ekrana yazan program.
+
+sayi        = 0 1 2 3 4 5 6 7
+fibonacci   = 0 1 1 2 3 5 8 13

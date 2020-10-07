@@ -1,0 +1,61 @@
+KOMUTLAR
+
+BASLA = PROGRAMI BASLAT
+BITIR = PROGRAMI BITIR
+GIR = BIR DEGISKEN GIR
+YAZ = EKRANA BIR SAYI YAZ
+EGER 
+
+------------------------------
+
+1.) Ekrana kullanici tarafindan girilen bir sayiyi iki ile carpip yazdiran program.
+
+1. BASLA
+2. GIR sayi
+3. YAZ 2*sayi
+4. BITIR
+
+2.) Ekrana kullanici tarafindan girilen iki sayiyi carpip yazdiran program.
+
+1. BASLA
+2. GIR sayi1, sayi2
+3. YAZ sayi1*sayi2
+4. BITIR
+
+1. BASLA
+2. GIR sayi1, sayi2
+3. sonuc = sayi1*sayi2
+4. YAZ sonuc
+5. BITIR
+
+3.) Disaridan girilen bir sayinin 50'den buyuk olmasi durumunda sayiyi ekrana yazan program.
+
+1. BASLA
+2. GIR sayi
+3. EGER sayi>50 ise YAZ sayi
+4. BITIR
+
+4.) Disaridan girilen bir sayinin 100'den buyuk olmasi durumunda ekrana buyuk 100'den kucuk olmasi durumunda ekrana kucuk yazan program.
+
+1. BASLA
+2. GIR sayi
+3. EGER sayi>100 ise YAZ 'buyuk'
+4. EGER sayi<100 ise YAZ 'kucuk'
+5. BITIR
+
+5.) Cayi nasil demledigimizi anlatan program.
+
+1. BASLA
+2. Caydanliga cay koy
+3. Caydanliga su koy
+4. Caydanligin altini yak
+5. Suyu kontrol et
+6. Kaynamadiysa Adim 5'e git
+
+6.) Disaridan girilen bir sayi 50'den buyuk ise ekrana sayiyi yazdiran degil ise 50'den buyuk bir sayi gelene kadar tekrar disaridan sayi alan program.
+
+1. BASLA
+2. GIR sayi
+3. EGER sayi>50 ise YAZ sayi
+4. DEGILSE EGER GIT ADIM 2
+5. BITIR

@@ -1,0 +1,38 @@
+KOMUTLAR
+
+DEGILSE EGER (ELSE IF)
+GIT ADIM
+DEGILSE (ELSE)
+
+----------------------
+
+1.) Disaridan girilen 2 sayidan en buyugunu bulan ve ekrana yazan program.
+
+1. BASLA
+2. GIR sayi1, sayi2
+3. EGER sayi1>sayi2 ise YAZ sayi1 DEGILSE YAZ sayi2
+4. BITIR
+
+2.) Disaridan girilen 4 sayi arasindan en buyugunu ekrana yazan program. ODEV: Akis diyagramini ciz!
+
+1. BASLA
+2. GIR s1, s2, s3, s4
+3. enb = s1
+4. EGER s2>enb ise enb=s2
+5. EGER s3>enb ise enb=s3
+6. EGER s4>enb ise enb=s4
+7. YAZ enb
+8. BITIR
+
+3.) Disaridan girilen 100 sayinin toplamini ekrana yazan program.
+
+1. BASLA
+2. toplam = 0, sayac = 0
+3. GIR sayi
+4. toplam = toplam + sayi
+5. sayac = sayac + 1
+6. EGER sayac<100 ise GIT ADIM 3
+7. YAZ toplam
+8. BITIR
+
+ODEV2: 1'den 1000'e kadar olan sayilarin toplamini toplam formulu kullanmadan bulan program.
