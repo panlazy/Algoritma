@@ -1,0 +1,3 @@
+# Algoritma
+
+Kankama kodlamayi ogretiyorum.
