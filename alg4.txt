@@ -1,0 +1,110 @@
+1.) Disaridan girilen bir sayinin, yine disaridan girilen bir sayiyi us olarak kullanarak ussunu dongu yardimiyla hesaplayan program.
+
+1. BASLA
+2. GIR x, y
+3. sonuc=1, sayac=1
+4. sonuc=sonuc*x
+5. sayac=sayac+1
+6. EGER sayac<=y ise GIT Adim 4
+7. YAZ sonuc
+8. BITIR
+
+3^5 = 243
+
+ADIM    x   y   sonuc   sayac
+2       3   5
+3               1       1
+4               3
+5                       2
+4               9
+5                       3
+4               27
+5                       4
+4               81
+5                       5
+4               243
+5                       6
+
+2.) Disaridan girilen iki sayinin carpimini, carpma operatoru kullanmadan hesaplayan algoritmayi yaziniz.
+
+1. BASLA
+2. GIR x, y
+3. sonuc=0, sayac=0
+4. sonuc=sonuc+x
+5. sayac=sayac+1
+6. EGER sayac<y ise GIT Adim 4
+7. YAZ sonuc
+8. BITIR
+
+
+ADIM    x   y   sonuc   sayac
+2       3   3
+3               0       0
+4               3
+5                       1
+4               6
+5                       2
+4               9
+5                       3
+
+
+3.) Disaridan girilen bir sayinin asal olma durumunu ekrana yazan program.
+
+// 2 DURUM
+// durum 0 ise asal
+// durum 1 ise asal degil
+
+1. BASLA
+2. GIR sayi
+3. durum=0
+4. sayac=2
+5. EGER sayi mod sayac == 0 ise durum = 1
+6. sayac = sayac + 1
+7. EGER sayac < sayi-1 ise GIT Adim 4
+8. EGER durum = 1 ise YAZ "ASAL DEGIL"
+   DEGILSE "ASAL"
+9. BITIR
+
+
+4.) Disaridan girilen 10000 sayiyi, sayilarin tamami girildikten sonra liste halinde ekrana yazan program.
+
+1. BASLA
+2. GIR s1, s2, s3, s4....
+3. YAZ s1, s2, s3, s4....
+4. BITIR
+
+--------- DIZILER --------
+DIZI Sayilar[5]
+
+index   =   0, 1,  2,  3,  4
+sayi    =   3, 10, 22, 31, 2
+
+1. BASLA
+2. DIZI Sayi[10000]
+3. i=0
+4. GIR Sayi[i]
+5. i=i+1
+6. EGER i<10000 ise GIT Adim 4
+7. i=0
+8. YAZ Sayi[i]
+9. i=i+1
+10. EGER i<10000 ise GIT Adim 8
+11. BITIR
+
+5.) Disaridan girilen 100 sayidan once tek olanlari, sonra cift olanlari ekrana yazan program.
+
+1. BASLA
+2. DIZI Sayi[100]
+3. i=0
+4. GIR Sayi[i]
+5. i=i+1
+6. EGER i<100 ise GIT Adim 4
+7. i=0
+8. EGER Sayi[i] mod 2 = 1 ise YAZ Sayi[i]
+9. i=i+1
+10. EGER i<100 ise GIT Adim 8
+11. i=0
+12. EGER Sayi[i] mod 2 = 0 ise YAZ Sayi[i]
+13. i=i+1
+14. EGER i<100 ise GIT Adim 12
+15. BITIR

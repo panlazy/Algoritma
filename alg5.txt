@@ -1,0 +1,35 @@
+1.) Disaridan girilen 100 elemanli bir dizi (dizinin eleman degerlerini onceden girildigini varsay) icerisinde en buyuk elemani bulan program.
+
+1. BASLA
+2. DIZI Sayi[100]
+3. enb = Sayi[0]
+4. i=1
+5. EGER Sayi[i] > enb ise enb=Sayi[i]
+6. i=i+1
+7. EGER i<100 ise GIT ADIM 5
+8. YAZ enb
+9. BITIR
+
+------- MATRISLER -------
+
+Array[5] = {2,3,5,6}
+     [x, y]
+Array[2,3] = {{3,5,2}, {2,5,3}}
+
+2.) Onceden tanimli olarak verilen 2 matrisin toplamini bulan program.
+
+1. BASLA
+2. DIZI M1[2, 3]={ {3,5,2}, {4,6,8} }
+3. DIZI M2[2, 3]={ {6,1,4}, {2,9,3} }
+4. DIZI M3[2, 3]
+5. x=0, y=0
+6. M3[x, y] = M1[x, y] + M2[x, y]
+7. y=y+1
+8. EGER y<3 ise GIT ADIM 6
+9. x=x+1, y=0
+11. EGER x<2 ise GIT ADIM 6
+12. BITIR
+
+ODEV: Onceden tanimli tek boyutlu ve 100 elemanli bir dizideki sayilarin ortalamasini bulan programin algoritmasini yaz ve akis diyagramini ciz.
+ODEV2: Satir ve sutun sayisi kullanici tarafindan girilen bir matrisin elemanlarini rastgele sayilar ile dolduran programi yaz. x = rastgele()
+ODEV3: Onceden tanimli 30x40 ve 40x50 boyutundaki iki matrisin carpimini bulan programi yaz. (Dongu kullan)
