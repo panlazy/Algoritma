@@ -1,0 +1,3 @@
+/home/panlazy/Documents/erkine_dersler/c_dersleri/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/panlazy/Documents/erkine_dersler/c_dersleri/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/panlazy/Documents/erkine_dersler/c_dersleri/cmake-build-debug/CMakeFiles/c_dersleri.dir
